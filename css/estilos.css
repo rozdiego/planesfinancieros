@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: underline;
+    color: #1b557a;
+    font-weight: 300;
+}
+
+nav{
+    background-color: #1b557a;
+    padding: 0 10px;
+}
+nav img{
+    width: 112px;
+}
+
+.n-servicios{
+    background-color: white;
+    margin: 0;
+    padding: 20px 0;
+}
+.header{
+    margin: 0;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 700;
+    color: #1b557a;
+}
+
+.header:after{
+    margin: 10px auto;
+    height: 2px;
+    width: 150px;
+    background-color: #DABE44;
+    content: "";
+    display: block;
+}
+
+.n-servicios .card .card-title{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.n-servicios .card .card-reveal .card-title{
+    color: #DABE44;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.n-servicios .card .card-content{
+    background-color: #DABE44;
+}
+
+.page-footer{
+    background-color: #1b557a;
+}
